@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: green;
+}
+.bg-box{
+    max-width: 1400px;
+    height: 700px;
+
+    background-image: 
+    url(photo/1.jpg),
+    url(photo/2.png), 
+    url(photo/3.png),
+    url(photo/4.png),
+    url(photo/4.webp);
+    
+    background-size: 500px, 400px, 30px, 30px, 30px;
+    
+    background-position: center, bottom, top, right, left;
+
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+
+}
